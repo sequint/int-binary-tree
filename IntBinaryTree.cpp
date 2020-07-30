@@ -117,7 +117,7 @@ int IntBinaryTree::treeHeight(TreeNode* nodePtr)
 	else
 	{
 		int leftHeight = treeHeight(nodePtr->left) + 1,    // Recursivly count left side height and store the number.
-			rightHeight = treeHeight(nodePtr->right) + 1;  // Recursivly count right side height and store the number.
+		    rightHeight = treeHeight(nodePtr->right) + 1;  // Recursivly count right side height and store the number.
 
 		// Return the height of the larger side.
 		if (leftHeight > rightHeight)
@@ -164,8 +164,8 @@ int IntBinaryTree::treeLevelWidth(TreeNode* nodePtr, int level)
 
 int IntBinaryTree::getTreeWidth()
 {
-	int largestLevel = 0,			   // Holds the number of nodes in the largest tree level.
-		levelWidth = 0,				   // Temporarily holds the width of each tree level.
+	int largestLevel = 0,		       // Holds the number of nodes in the largest tree level.
+		levelWidth = 0,		       // Temporarily holds the width of each tree level.
 		treeHeight = getTreeHeight();  // Holds the height of the tree.
 
 	// If the tree height is -1, then the tree is empty, return -1.
