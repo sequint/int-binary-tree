@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch. 21 Assignment - Binary Tree Project
-// July 29, 2020
-
 // Main function file for Binary Tree Project.
 
 #include <iostream>
@@ -14,7 +10,7 @@ int main()
 {
 	IntBinaryTree tree;  // Binary Tree object.
 
-	int choice;			 // Variable that holds the menu choice.
+	int choice;	     // Variable that holds the menu choice.
 
  // While the choice is not EXIT_PROGRAM, continue printing the menu.
 	do
