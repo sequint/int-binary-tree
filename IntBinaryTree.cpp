@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch. 21 Assignment - Binary Tree Project
-// July 29, 2020
-
 // Implementation file for the IntBinaryTree class.
 
 #include <iostream>
@@ -11,15 +7,15 @@ using namespace std;
 
 
 //*******************************************************************************************
-//								 PRIVATE MEMEBER FUNCTIONS									*
+//				PRIVATE MEMEBER FUNCTIONS				    *
 //*******************************************************************************************
 
 //*******************************************************************************************
-// insert Function																			*
-//																							*
-// This function takes the reference of two pointers (root & new) and traverses the tree	*
-// for the next null node, then insert the new node there. The traverse compares the		*
-// two pointers and continues the traverse two the left or right depending on the value.	*
+// insert Function									    *
+//											    *
+// This function takes the reference of two pointers (root & new) and traverses the tree    *
+// for the next null node, then insert the new node there. The traverse compares the	    *
+// two pointers and continues the traverse two the left or right depending on the value.    *
 //*******************************************************************************************
 
 void IntBinaryTree::insert(TreeNode*& nodePtr, TreeNode*& newNode)
@@ -36,9 +32,9 @@ void IntBinaryTree::insert(TreeNode*& nodePtr, TreeNode*& newNode)
 }
 
 //*******************************************************************************************
-// destroySubTree Function																	*
-//																							*
-// This function deletes all nodes in the tree.												*
+// destroySubTree Function								    *
+//											    *
+// This function deletes all nodes in the tree.						    *
 //*******************************************************************************************
 
 void IntBinaryTree::destroySubTree(TreeNode* nodePtr)
@@ -60,11 +56,11 @@ void IntBinaryTree::destroySubTree(TreeNode* nodePtr)
 }
 
 //*******************************************************************************************
-// displayInOrder Function																	*
-//																							*
-// This function displays the tree in order from small to large by traversing each nodes	*
-// left side first until null then displaying those values in reverse, then it traverses	*
-// right and continues to do the same until there are no more left child nodes.				*
+// displayInOrder Function								    *
+//											    *
+// This function displays the tree in order from small to large by traversing each nodes    *
+// left side first until null then displaying those values in reverse, then it traverses    *
+// right and continues to do the same until there are no more left child nodes.		    *
 //*******************************************************************************************
 
 void IntBinaryTree::displayInOrder(TreeNode* nodePtr) const
@@ -84,9 +80,9 @@ void IntBinaryTree::displayInOrder(TreeNode* nodePtr) const
 }
 
 //*******************************************************************************************
-// leafCount Function																		*
-//																							*
-// This function traverses through the tree and counts every leaf node.						*
+// leafCount Function									    *
+//											    *
+// This function traverses through the tree and counts every leaf node.			    *
 //*******************************************************************************************
 
 int IntBinaryTree::leafCount(TreeNode* nodePtr)
@@ -103,10 +99,10 @@ int IntBinaryTree::leafCount(TreeNode* nodePtr)
 }
 
 //*******************************************************************************************
-// treeHeight Function																		*
-//																							*
-// This function traverses each side of the tree and counts the heights, then returns		*
-// the larger number, indicating the max tree height.										*
+// treeHeight Function									    *
+//											    *
+// This function traverses each side of the tree and counts the heights, then returns	    *
+// the larger number, indicating the max tree height.					    *
 //*******************************************************************************************
 
 int IntBinaryTree::treeHeight(TreeNode* nodePtr)
@@ -132,11 +128,11 @@ int IntBinaryTree::treeHeight(TreeNode* nodePtr)
 }
 
 //*******************************************************************************************
-// treeLevelWidth Function																	*
-//																							*
-// This function takes a desired level to search for along with the root as it's			*
-// arguments, then traverses to that level and adds each right and left node together		*
-// to get the total number of nodes on the level.											*
+// treeLevelWidth Function								    *
+//											    *
+// This function takes a desired level to search for along with the root as it's	    *
+// arguments, then traverses to that level and adds each right and left node together	    *
+// to get the total number of nodes on the level.					    *
 //*******************************************************************************************
 
 int IntBinaryTree::treeLevelWidth(TreeNode* nodePtr, int level)
@@ -156,14 +152,14 @@ int IntBinaryTree::treeLevelWidth(TreeNode* nodePtr, int level)
 
 
 //*******************************************************************************************
-//								   BINARY TREE OPERATIONS									*
+//				 BINARY TREE OPERATIONS  				    *
 //*******************************************************************************************
 
 //*******************************************************************************************
-// getTreeWidth Function																	*
-//																							*
-// This function finds the level of each tree, then returns the number of nodes in the		*
-// widest level found.																		*
+// getTreeWidth Function								    *
+//											    *
+// This function finds the level of each tree, then returns the number of nodes in the	    *
+// widest level found.									    *
 //*******************************************************************************************
 
 int IntBinaryTree::getTreeWidth()
@@ -193,10 +189,10 @@ int IntBinaryTree::getTreeWidth()
 }
 
 //*******************************************************************************************
-// insertNode Function																		*
-//																							*
-// This function dynamically creates a new tree node with the user's passed num value,		*
-// then stores it into the tree by passing the new number into the insert function.			*
+// insertNode Function									    *
+//											    *
+// This function dynamically creates a new tree node with the user's passed num value,	    *
+// then stores it into the tree by passing the new number into the insert function.	    *
 //*******************************************************************************************
 
 void IntBinaryTree::insertNode(int num)
@@ -215,10 +211,10 @@ void IntBinaryTree::insertNode(int num)
 }
 
 //*******************************************************************************************
-// isEmpty Function																			*
-//																							*
-// This funtion tests if the root node is empty and returns true if it is and false if it	*
-// is not.																					*
+// isEmpty Function									    *
+//											    *
+// This funtion tests if the root node is empty and returns true if it is and false if it   *
+// is not.										    *
 //*******************************************************************************************
 
 bool IntBinaryTree::isEmpty() const
