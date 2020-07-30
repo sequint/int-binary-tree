@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch. 21 Assignment - Binary Tree Project
-// July 29, 2020
-
 // Implementation file for the program functions.
 
 #include <iostream>
@@ -11,15 +7,15 @@ using namespace std;
 
 
 //*******************************************************************************************
-//										INPUT FUNCTIONS										*
+//					INPUT FUNCTIONS	    				    *
 //*******************************************************************************************
 
 
 //*******************************************************************************************
-// menu Function																		    *
-//																							*
+// menu Function									    *
+//											    *
 // This function gives the user a list of numbered choices, gets the choice from the user,  *
-// then validates that the choice is valid.													*
+// then validates that the choice is valid.						    *
 //*******************************************************************************************
 
 void menu(int& choice)
@@ -40,10 +36,10 @@ void menu(int& choice)
 }
 
 //*******************************************************************************************
-// insertInteger Function																	*
-//																							*
-// This function gets an integer from the user, then call insertNode to insert the value	*
-// into the tree.																			*
+// insertInteger Function								    *
+//											    *
+// This function gets an integer from the user, then call insertNode to insert the value    *
+// into the tree.									    *
 //*******************************************************************************************
 
 void insertInteger(IntBinaryTree& tree)
@@ -58,10 +54,10 @@ void insertInteger(IntBinaryTree& tree)
 }
 
 //*******************************************************************************************
-// getInteger Function																		*
-//																							*
-// This function prompts the user for an integer, and continues to do so while the input	*
-// is not an integer.																		*
+// getInteger Function									    *
+//											    *
+// This function prompts the user for an integer, and continues to do so while the input    *
+// is not an integer.									    *
 //*******************************************************************************************
 
 void getInteger(int& value)
@@ -75,14 +71,14 @@ void getInteger(int& value)
 
 
 //*******************************************************************************************
-//									 OUTPUT FUNCTIONS										*
+//					OUTPUT FUNCTIONS				    *
 //*******************************************************************************************
 
 
 //*******************************************************************************************
-// displayTree Function																		*
-//																							*
-// This function displays the tree in order.												*
+// displayTree Function									    *
+//											    *
+// This function displays the tree in order.						    *
 //*******************************************************************************************
 
 void displayTree(IntBinaryTree& tree)
@@ -101,9 +97,9 @@ void displayTree(IntBinaryTree& tree)
 }
 
 //*******************************************************************************************
-// displayLeafCount Function																*
-//																							*
-// This function displays the number of leaves on the tree.									*
+// displayLeafCount Function								    *
+//											    *
+// This function displays the number of leaves on the tree.				    *
 //*******************************************************************************************
 
 void displayLeafCount(IntBinaryTree& tree)
@@ -122,9 +118,9 @@ void displayLeafCount(IntBinaryTree& tree)
 }
 
 //*******************************************************************************************
-// displayTreeHeight Function																*
-//																							*
-// This function displays the largest count of nodes vertically in the tree.				*
+// displayTreeHeight Function								    *
+//											    *
+// This function displays the largest count of nodes vertically in the tree.		    *
 //*******************************************************************************************
 
 void displayTreeHeight(IntBinaryTree& tree)
@@ -142,10 +138,10 @@ void displayTreeHeight(IntBinaryTree& tree)
 }
 
 //*******************************************************************************************
-// displayTreeWidth Function																*
-//																							*
-// This function displays the width of the tree by finding the level with the most			*
-// amount of nodes in it.																	*
+// displayTreeWidth Function								    *
+//											    *
+// This function displays the width of the tree by finding the level with the most	    *
+// amount of nodes in it.								    *
 //*******************************************************************************************
 
 void displayTreeWidth(IntBinaryTree& tree)
@@ -163,9 +159,9 @@ void displayTreeWidth(IntBinaryTree& tree)
 }
 
 //*******************************************************************************************
-// goodbyeMessage Function																	*
-//																							*
-// This function prints a goodbye message used at the exit of the program. 					*
+// goodbyeMessage Function								    *
+//											    *
+// This function prints a goodbye message used at the exit of the program. 		    *
 //*******************************************************************************************
 
 void goodbyeMessage()
@@ -174,9 +170,9 @@ void goodbyeMessage()
 }
 
 //*******************************************************************************************
-// menuChoiceError Function																	*
-//																							*
-// This function prints an error message to inform user that their selection is not valid.	*
+// menuChoiceError Function								    *
+//											    *
+// This function prints an error message to inform user that their selection is not valid.  *
 //*******************************************************************************************
 
 void menuChoiceError(int& choice)
@@ -187,15 +183,15 @@ void menuChoiceError(int& choice)
 
 
 //*******************************************************************************************
-//								INPUT VALIDATION FUNCTIONS									*
+//				INPUT VALIDATION FUNCTIONS				    *
 //*******************************************************************************************
 
 
 //*******************************************************************************************
-// isInteger Function																		*
-//																							*
-// This functions takes checks if the input is an integer, and prompts for another input	*
-// if it is not.																			*
+// isInteger Function									    *
+//											    *
+// This functions takes checks if the input is an integer, and prompts for another input    *
+// if it is not.									    *
 //*******************************************************************************************
 
 void isInteger(int& input)
