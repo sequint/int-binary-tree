@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch. 21 Assignment - Binary Tree Project
-// July 29, 2020
-
 // Specification file for the program functions.
 
 #pragma once
@@ -12,11 +8,11 @@ using namespace std;
 
 // Global Variables - constant menu choices
 const int INSERT_INT = 1,
-		  DISPLAY_IN_ORDER = 2,
-		  LEAF_COUNT = 3,
-		  DISPLAY_HEIGHT = 4,
-		  DISPLAY_WIDTH = 5,
-		  EXIT_PROGRAM = 6;
+	  DISPLAY_IN_ORDER = 2,
+	  LEAF_COUNT = 3,
+	  DISPLAY_HEIGHT = 4,
+	  DISPLAY_WIDTH = 5,
+	  EXIT_PROGRAM = 6;
 
 // Input Functions
 void menu(int&);
