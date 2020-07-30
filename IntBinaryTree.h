@@ -1,7 +1,3 @@
-// Steven Quintana
-// Ch. 21 Assignment - Binary Tree Project
-// July 29, 2020
-
 // Specification file for the IntBinaryTree class.
 
 #ifndef INTBINARYTREE_H
@@ -12,7 +8,7 @@ class IntBinaryTree
 private:
 	struct TreeNode
 	{
-		int value;		  // Holds the value in the node.
+		int value;	  // Holds the value in the node.
 		TreeNode* left;   // Pointer to the left child node.
 		TreeNode* right;  // Pointer to the right child node.
 	};
