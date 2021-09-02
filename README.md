@@ -1,5 +1,3 @@
-# int-binary-tree
-Simple binary tree built from integer input.
+# Binary Tree
 
-Add numbers to the binary tree, then view them in order, get the number of leafs, and get the tree's height or width.
-Recursion used to traverse the tree in all operations.
+C++ console app that can add/delete numbers from a binary tree, get leaf numbers on the tree, and return the trees height or width.
