@@ -8,3 +8,8 @@ Through user prompts the user can, add integers as data to the tree, get leaf nu
 
 - C++ Language
 - Visual Studio
+
+## Installation
+
+- Clone the project into a local repository.
+- Open project locally through an IDE and run.
